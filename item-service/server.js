@@ -10,4 +10,4 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
 
 app.use('/items', require('./routes/itemRoutes'));
 
-app.listen(5002, () => console.log('Item Service running on port 5002'));
+app.listen(3002, () => console.log('Item Service running on port 3002'));

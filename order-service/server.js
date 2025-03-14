@@ -10,4 +10,4 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
 
 app.use('/orders', require('./routes/orderRoutes'));
 
-app.listen(5003, () => console.log('Order Service running on port 5003'));
+app.listen(3003, () => console.log('Order Service running on port 3003'));
